@@ -207,16 +207,7 @@ pm2 logs strapi
 2. Verify AMI ID is correct for your region
 3. Check AWS quotas/limits
 
-##  Notes
 
-- First deployment takes 5-10 minutes for Strapi installation
-- Strapi uses SQLite database (stored on instance)
-- For production, consider:
-  - Using RDS for database
-  - Adding Application Load Balancer
-  - Implementing HTTPS with ACM/Let's Encrypt
-  - Using Elastic IP for static IP
-  - Implementing backups
 
 
 
