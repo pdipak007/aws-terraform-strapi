@@ -1,0 +1,21 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# EC2 Instance Configuration
+instance_type = "t2.micro" # Free tier eligible
+
+# AMI IDs for Ubuntu 22.04 LTS by region:
+# us-east-1: ami-0866a3c8686eaeeba
+# us-west-2: ami-05134c8ef96964280
+# eu-west-1: ami-0d64bb532e0502c46
+# ap-south-1: ami-0dee22c13ea7a9a67
+ami_id = "ami-0866a3c8686eaeeba"
+
+# SSH Key (must be created in AWS EC2 console first)
+key_name = "your-key-name" # Replace with your actual key name
+
+# Strapi Configuration
+strapi_version = "4.25.0"
+
+# Elastic IP (optional)
+use_elastic_ip = false
