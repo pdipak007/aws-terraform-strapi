@@ -110,7 +110,7 @@ Visit the admin URL to create your admin account.
 └── README.md                 # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Variables
 
@@ -169,7 +169,7 @@ sudo su - strapi
 pm2 stop strapi
 ```
 
-## 🧹 Cleanup
+##  Cleanup
 
 To destroy all resources:
 
